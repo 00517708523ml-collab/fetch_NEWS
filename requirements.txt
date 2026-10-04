@@ -1,0 +1,5 @@
+gradio
+python-dotenv
+exa-py
+firecrawl-py
+tavily-python
