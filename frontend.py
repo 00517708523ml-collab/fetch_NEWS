@@ -203,7 +203,7 @@ with gr.Blocks(title="AI News Dashboard") as app:
         query = gr.Textbox(label="Search AI news", placeholder="e.g. new open-source LLM")
         search_btn = gr.Button("Search", variant="primary")
         search_output = gr.HTML()
-        search_btn.click(search, query, search_output)-
+        search_btn.click(search, query, search_output)
         query.submit(search, query, search_output)
 
 if __name__ == "__main__":
